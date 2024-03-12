@@ -1,0 +1,5 @@
+Manager#Géza#Kedves#123123,15#4
+Manager#Béla#Lázár#150000,15#4
+Worker#Attila#Pásztor#50000
+Manager#Dorottya#Szabó#202000,15#4
+Worker#Aladár#Császár#123123,15
