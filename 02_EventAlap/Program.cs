@@ -1,15 +1,7 @@
-﻿using System.Diagnostics.Metrics;
-
-namespace _01_DelegateEgyszeru
+﻿namespace _02_EventAlap
 {
     internal class Program
     {
-        /* Feladat
-         Hozzunk létre egy számok osztályt. 
-
-         
-         */
-
         static void Main(string[] args)
         {
             Szamok counter = new Szamok(5);
@@ -20,13 +12,14 @@ namespace _01_DelegateEgyszeru
             counter.AddNumber(40);
             counter.AddNumber(50);
 
+            counter.KiiratasEvent += KiiratasEventtel;
             counter.Kiiratas(KiiratasSiman);
+
 
             Console.WriteLine("\n");
 
             counter.KiiratasIndexxel(KiiratasIndexxel);
 
-            
 
             Console.WriteLine("\n\nLefutott");
         }
@@ -40,5 +33,12 @@ namespace _01_DelegateEgyszeru
         {
             Console.WriteLine($"Az {index}. helyen található elem értéke: {value}");
         }
+
+        static void KiiratasEventtel(int value)
+        {
+            Console.WriteLine($"Az event elsütésre került. A következő értéknél: {value}");
+        }
+
+
     }
 }

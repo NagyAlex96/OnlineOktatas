@@ -17,23 +17,23 @@
             */
 
             //egyszerű delegate
-            //CsakKiiratasDelegate csakKiiratasDelegate = new CsakKiiratasDelegate(Kiiratas1);
-            //csakKiiratasDelegate();
+            CsakKiiratasDelegate csakKiiratasDelegate = new CsakKiiratasDelegate(Kiiratas1);
+            csakKiiratasDelegate();
 
 
             //multicast delegate
-            CsakKiiratasDelegate csakKiiratasDelegate = null;
-            SzamKiiratasDelegate szamKiiratasDelegate = null;
+            //CsakKiiratasDelegate csakKiiratasDelegate = null;
+            //SzamKiiratasDelegate szamKiiratasDelegate = null;
 
            
-            csakKiiratasDelegate += Kiiratas1;
-            csakKiiratasDelegate += Kiiratas2;
-            csakKiiratasDelegate();
+            //csakKiiratasDelegate += Kiiratas1;
+            //csakKiiratasDelegate += Kiiratas2;
+            //csakKiiratasDelegate();
 
-            szamKiiratasDelegate += KiiratasSzam1;
-            szamKiiratasDelegate += KiiratasSzam2;
+            //szamKiiratasDelegate += KiiratasSzam1;
+            //szamKiiratasDelegate += KiiratasSzam2;
 
-            szamKiiratasDelegate(10);
+            //szamKiiratasDelegate(10);
 
 
             Console.WriteLine("\n\nLefutott");

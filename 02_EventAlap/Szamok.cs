@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_DelegateEgyszeru
+namespace _02_EventAlap
 {
     internal class Szamok
     {
+        public delegate void ChangeNumberDelegate(int mirol, int mire);
         public delegate void KiiratasDelegate(int num);
         public delegate void KiiratasIndexxelDelegate(int num, int index);
+
+        public event KiiratasDelegate KiiratasEvent;
 
         public Szamok(int count)
         {
@@ -18,7 +21,7 @@ namespace _01_DelegateEgyszeru
 
         private int[] nums;
         private int index = 0;
-  
+
         public int[] Nums { get => this.nums; }
 
 
@@ -27,9 +30,10 @@ namespace _01_DelegateEgyszeru
             foreach (int i in Nums)
             {
                 kiiratas?.Invoke(i);
+                KiiratasEvent?.Invoke(i);
             }
-        }        
-        
+        }
+
         public void KiiratasIndexxel(KiiratasIndexxelDelegate kiiratas)
         {
             int index = 0;
@@ -43,6 +47,11 @@ namespace _01_DelegateEgyszeru
         public void AddNumber(int num)
         {
             nums[index++] = num;
+        }
+
+        public void ChangeNumber(ChangeNumberDelegate changeDelegate)
+        {
+
         }
     }
 }
