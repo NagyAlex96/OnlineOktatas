@@ -5,15 +5,25 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ora_001", "Ora_001\Ora_001.csproj", "{170BB61D-C71E-49E6-9C38-9A40EF6F9C18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_DelegateAlap", "01_DelegateAlap\01_DelegateAlap.csproj", "{C5A0ED11-3FB3-4019-A96E-C9B885B79F12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_DelegateAlap", "01_DelegateAlap\01_DelegateAlap.csproj", "{C5A0ED11-3FB3-4019-A96E-C9B885B79F12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_DelegateEgyszeru", "01_DelegateEgyszeru\01_DelegateEgyszeru.csproj", "{65088AFA-835A-4728-9C21-78E4F2544972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_DelegateEgyszeru", "01_DelegateEgyszeru\01_DelegateEgyszeru.csproj", "{65088AFA-835A-4728-9C21-78E4F2544972}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_DelegateHalado", "01_DelegateHalado\01_DelegateHalado.csproj", "{CB18EB83-F2F8-47FC-98F2-653BB581A523}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_DelegateHalado", "01_DelegateHalado\01_DelegateHalado.csproj", "{CB18EB83-F2F8-47FC-98F2-653BB581A523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_EventAlap", "02_EventAlap\02_EventAlap.csproj", "{F5DB773E-7356-417B-97DC-2EF7776982F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_EventAlap", "02_EventAlap\02_EventAlap.csproj", "{F5DB773E-7356-417B-97DC-2EF7776982F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_EventHalado", "02_EventHalado\02_EventHalado.csproj", "{A4B4E8C6-1E0C-4B6B-9A3A-BB0AC7ED0201}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_EventHalado", "02_EventHalado\02_EventHalado.csproj", "{A4B4E8C6-1E0C-4B6B-9A3A-BB0AC7ED0201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Alap_XML", "03_Alap_XML\03_Alap_XML.csproj", "{E6098FE1-6FD8-4166-829C-CB6E37A0E46A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Halado_XML", "03_Halado_XML\03_Halado_XML.csproj", "{58B281B6-9F84-45AC-9287-85B7882B3519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_SzerializacioXML", "03_SzerializacioXML\03_SzerializacioXML.csproj", "{BFA6A5F7-7614-48C9-9DC3-CA76A8BBAA2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Json", "04_Json\04_Json.csproj", "{3A7FB284-6436-4008-A539-28A45BEC8142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_AlapLINQ", "05_AlapLINQ\05_AlapLINQ.csproj", "{C5B4087A-4E9E-49FC-9682-BC318561A2B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +55,26 @@ Global
 		{A4B4E8C6-1E0C-4B6B-9A3A-BB0AC7ED0201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4B4E8C6-1E0C-4B6B-9A3A-BB0AC7ED0201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4B4E8C6-1E0C-4B6B-9A3A-BB0AC7ED0201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6098FE1-6FD8-4166-829C-CB6E37A0E46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6098FE1-6FD8-4166-829C-CB6E37A0E46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6098FE1-6FD8-4166-829C-CB6E37A0E46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6098FE1-6FD8-4166-829C-CB6E37A0E46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B281B6-9F84-45AC-9287-85B7882B3519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B281B6-9F84-45AC-9287-85B7882B3519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B281B6-9F84-45AC-9287-85B7882B3519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B281B6-9F84-45AC-9287-85B7882B3519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA6A5F7-7614-48C9-9DC3-CA76A8BBAA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA6A5F7-7614-48C9-9DC3-CA76A8BBAA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA6A5F7-7614-48C9-9DC3-CA76A8BBAA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA6A5F7-7614-48C9-9DC3-CA76A8BBAA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7FB284-6436-4008-A539-28A45BEC8142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7FB284-6436-4008-A539-28A45BEC8142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7FB284-6436-4008-A539-28A45BEC8142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7FB284-6436-4008-A539-28A45BEC8142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B4087A-4E9E-49FC-9682-BC318561A2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B4087A-4E9E-49FC-9682-BC318561A2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B4087A-4E9E-49FC-9682-BC318561A2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B4087A-4E9E-49FC-9682-BC318561A2B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

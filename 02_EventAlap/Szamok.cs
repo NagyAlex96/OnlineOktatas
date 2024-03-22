@@ -49,9 +49,6 @@ namespace _02_EventAlap
             nums[index++] = num;
         }
 
-        public void ChangeNumber(ChangeNumberDelegate changeDelegate)
-        {
 
-        }
     }
 }

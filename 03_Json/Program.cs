@@ -1,17 +1,10 @@
-﻿using Ora_001;
-
-namespace ConsoleApp
+﻿namespace _03_Json
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
-
-
-
-
-            Console.ReadKey();
+            Console.WriteLine("Hello, World!");
         }
     }
 }
